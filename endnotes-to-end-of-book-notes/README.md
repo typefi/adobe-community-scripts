@@ -13,12 +13,15 @@ To set up your book for end-of-book endnotes, do the following:
 
 3.	Change endnote numbering and layout options:
 * Choose Type > Document Endnote Options.
-* Edit Endnote Header > Paragraph Style to choose a paragraph style ffor the section headings in the endnote document (“Notes to chapter 1”, etc.)
+* Edit Endnote Header > Paragraph Style to choose a paragraph style for the section headings in the endnote document (“Notes to chapter 1”, etc.)
 * *Optionally*, also edit the character style for the Endnote Reference Number in Text and the paragraph style for the Endnote Formatting (if not set, these styles will be inherited from the first document of your book that contains endnotes).
 4.	Add this new document to the end of your book.
-* Choose Add Document in the Book panel menu, click the plus button at the bottom of the Book panel, or drag and drop the new document onto the Book panel from an Explorer (Windows) or Finder (macOS) window
+* Choose Add Document in the Book panel menu, click the plus button at the bottom of the Book panel, or drag and drop the new document onto the Book panel from an Explorer (Windows) or Finder (macOS) window.
+
 Next, copy the script to the Scripts Panel folder so that it shows up in the Scripts panel. To find the folder, open the Script panel (Window > Utilities > Scripts), right-click the User folder, and select Select in Explorer (Windows)/Select in Finder (Mac).
+
 ## Using the script
+
 To run the script, do the following:
 5.	Close any documents you currently have open.
 6.	Open your InDesign book file.
