@@ -1,6 +1,6 @@
 ﻿// Convert InDesign document endnotes to semi-automatic end-of-book endnotes
 // Requires CC2018 or later
-// Peter Kahrel www.typefi.com
+// Peter Kahrel -- www.typefi.com
 
 
 (function () {
@@ -249,12 +249,13 @@
 	bookEndNoteStory = noteDocument.pages[0].textFrames.item('Notes').parentStory;
 	endOfBookNotes();
 	fixEndnotes();
+	noteDocument.save (noteDocument.fullName);
 
-	if (autonumbering) {
+	//if (autonumbering) {
 		app.books[0].automaticPagination = true;
 		app.books[0].repaginate();
 		app.books[0].updateChapterAndParagraphNumbers();
-	}
+	//}
 
 	app.books[0].save();
 
