@@ -23,10 +23,12 @@ Next, copy the script to the Scripts Panel folder so that it shows up in the Scr
 ## Using the script
 
 To run the script, do the following:
-5.	Close any documents you currently have open.
-6.	Open your InDesign book file.
-7.	In the Book panel, double-click the end of book document you created earlier.
-8.	Double-click the end of book endnotes script in the Scripts panel
+
+1.	Close any documents you currently have open.
+2.	Open your InDesign book file.
+3.	In the Book panel, double-click the end of book document you created earlier.
+4.	Double-click the end of book endnotes script in the Scripts panel.
+
 WARNING: This script will change the contents of your individual book documents. It is therefore very important that you save your documents before you begin. There is no going back after converting end of document endnotes to end of book endnotes. The script will warn you before it starts to confirm this.
 
 ![Alert](resources/alert.png)
