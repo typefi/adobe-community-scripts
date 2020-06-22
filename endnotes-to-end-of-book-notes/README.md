@@ -7,8 +7,8 @@ To set up your book for end-of-book endnotes, do the following:
 * Choose **Window > Layers**.
 * Click twice (not a double-click) on the <text frame> to edit the name.
 * Enter “Notes”.
-![Layer](layers-a.png)
-![Layer](layers-b.png)
+![Layer](resources/layers-a.png)
+![Layer](resources/layers-b.png)
 
 3.	Change endnote numbering and layout options:
 * Choose Type > Document Endnote Options.
@@ -34,7 +34,7 @@ To see how the script works, use the sample documents provided:
 3.	In the Book panel, double-click the chapter-notes document.
 4.	Double-click the end of book endnotes script in the Scripts panel.
 The script first warns you that it will make changes to your documents, then checks whether there is just one book file and one document open, and whether the document contains the “Notes” text frame.
-![Book start](book-start.png)
+![Book start](resources/book-start.png)
 ## Additional notes
 * The script inherits any paragraph styles set in the *Document Endnote Options* dialog of the first document with endnotes.
 * Endnote numbering is handled by InDesign’s automatic paragraph numbering.
