@@ -41,11 +41,13 @@ To see how the script works, use the sample documents provided:
 2.	Open the **book-endnotes.indb** book file.
 3.	In the Book panel, double-click the chapter-notes document.
 4.	Double-click the end of book endnotes script in the Scripts panel.
+
 The script first warns you that it will make changes to your documents, then checks whether there is just one book file and one document open, and whether the document contains the “Notes” text frame.
 
 ![Book start](resources/book-start.png)
 
 ## Additional notes
+
 * The script inherits any paragraph styles set in the *Document Endnote Options* dialog of the first document with endnotes.
 * Endnote numbering is handled by InDesign’s automatic paragraph numbering.
 * The endnote numbering mode (**Restart Every Story** or **Continuous**) is preserved in the endnote document. The separator set in the paragraph style is taken from the endnote options in the first document with endnotes
